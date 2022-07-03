@@ -1,0 +1,140 @@
+#title {
+    background-color: #ff4c68;
+
+
+}
+
+
+
+/* body */
+
+
+
+#bootstrap-overrides h1 {
+
+    font-weight: bolder;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    color: white;
+
+}
+
+#bootstrap-overrides {
+
+    font-family: "Monsterrat";
+    font-weight: bold;
+
+}
+
+
+
+
+.rott {
+    transform: rotate(25deg);
+    width: 60%;
+    position: relative;
+    top: 175px;
+    left: 25%;
+    z-index: 1;
+
+
+
+}
+
+.checking {
+    align-content: center;
+}
+
+.fa-solid {
+    color: #ef8172;
+    font-size: 80px;
+    position: relative;
+    padding-bottom: 25px;
+
+}
+
+.fa-solid:hover {
+    color: #ff4c68;
+}
+
+
+.container {
+    text-align: center;
+}
+
+.font-c {
+    color: #8f8f8f;
+}
+
+.col-lg-4 {
+    padding: 25px 0;
+}
+
+
+#testimonials {
+
+    text-align: center;
+    color: #fff;
+    background-color: #ef8172;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+.doggo-img {
+    border-radius: 100%;
+    width: 15%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 20%;
+    padding: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.price-column {
+    margin: 50px 3% 0 3%;
+
+}
+
+#features {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    padding-top: 100px;
+}
+
+@media (max-width: 750px) {
+
+    .rott {
+        position: static;
+        transform: rotate(0deg);
+        width: 40%;
+        padding: 7% 5%;
+
+        text-align: center;
+
+    }
+
+    #title {
+        text-align: center;
+    }
+
+}
+
+#footer {
+    text-align: center;
+    padding: 10%;
+}
